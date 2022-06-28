@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right, #3D5AFE, #2196F3);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 7vh;
+}
+
+.sub-title{
+    margin-top: 1vh;
+    font-size: 0.9em;
+}
+
+.icon{
+    color: #2196F3;
+    font-size: 5em;
+}
+
+.icon-wrapper{
+    width: 8vw;
+    height: 16vh;
+    position: absolute;
+    top: 75%;
+    right: 45.5%;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    border: #000 2px solid;
+    margin-top: 10vh;
+    width: 30%;
+    height: 50vh;
+    padding: 2vh 4vw 5vh 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+input{
+    width: 100%;
+    padding: 1.5%;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding: 2%;
+    background-color: #2196F3;
+    color: #FFF;
+    font-size: 1em;
+    border: none;
+    box-shadow: 0 2px rgb(31, 30, 30);
+    border-radius: 5px;
+    cursor: pointer;
+}
