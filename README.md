@@ -1,1 +1,1 @@
-# Desafio-2
+# Desafio-Javascript-2

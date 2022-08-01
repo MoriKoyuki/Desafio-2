@@ -38,6 +38,7 @@ header{
 .icon-wrapper{
     width: 8vw;
     height: 16vh;
+    margin: auto;
     position: absolute;
     top: 75%;
     right: 45.5%;
